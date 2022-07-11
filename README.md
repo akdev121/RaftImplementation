@@ -5,8 +5,8 @@ Consensus algorithms enable a group of computers to function as a coherent entit
 **RAFT protocol helps in achieving consensus.
 
 In this project I implemented the two major task involved in RAFT algorithms
-* **Leader Election
-* **Safe Log Replication
+* **Leader Election**
+* **Safe Log Replication**
 
 ## Leader Election
 As per RAFT algorithm each node in a cluster can exist in three states, namely **Leader, Candidate and Follower**.
