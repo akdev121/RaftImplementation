@@ -2,7 +2,7 @@
 
 Consensus indicates that several servers agree on the same information, which is required for designing **fault-tolerant distributed systems**. 
 Consensus algorithms enable a group of computers to function as a coherent entity that can withstand the failures of some of its members.
-**RAFT protocol helps in achieving consensus.
+**RAFT protocol helps in achieving consensus.**
 
 In this project I implemented the two major task involved in RAFT algorithms
 * **Leader Election**
