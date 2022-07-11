@@ -50,7 +50,7 @@ Implementing of safe log replication involves implementation of following mechan
 Please check this file to see more information on the Safe Log Replication Implementation
 
 ## Tools and Technologies
-* **Java**
+* **Java 8**
 * **Java Spring**
 * **Multithreading in Java**
 * **UDP Datagram Packets** - Used UDP packets for sending heartbeats, vote requests and other messages
@@ -63,7 +63,7 @@ Please check this file to see more information on the Safe Log Replication Imple
 * please check this file for testing and valiation
 
 ## Demo Video
-[Please check the demo video of the implementation here](akdev121/RaftImplementation/DemoVideo/)
+Please check the demo video of the implementation [here](https://github.com/akdev121/RaftImplementation/tree/master/DemoVideo)
 
 
 ## References
