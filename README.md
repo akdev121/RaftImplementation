@@ -31,7 +31,7 @@ For implementing succesful Leader Election, I incorporated below mentioned mecha
 </p>
 
 
-Please check this file to see more information on the Leader Election Implementation
+Please check this [file](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Report/Implementation.pdf) to see more information on the Leader Election Implementation
 
 ## Safe Log Replication
 Implemented Safe Log Replication along with modified Leader Election algorithm to ensure only a candidate with complete log must get 
@@ -47,7 +47,7 @@ Implementing of safe log replication involves implementation of following mechan
 * **Log ordering** - Ensure the integrity of log.
 * **Log inconsistencies** - Managing Follower's log with conflicting log entries or incomplete log entries.
 
-Please check this file to see more information on the Safe Log Replication Implementation
+Please check this [file](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Report/Implementation.pdf) to see more information on the Safe Log Replication Implementation
 
 ## Tools and Technologies
 * **Java 8**
@@ -57,10 +57,10 @@ Please check this file to see more information on the Safe Log Replication Imple
 * **Docker** - Built 5 container to simulate algorithm
 
 ## How to use this repository
-* Please check Readme inside folder for using this repository
+* Please check Readme.pdf [here](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Readme/Readme.pdf)
 
 ## Testing and Validation
-* please check this file for testing and valiation
+* please check validation.pdf [here](https://github.com/akdev121/RaftImplementation/blob/9b0b2ec1847b24316bcb2a13a47a3cc24a20e982/Report/Validation.pdf) 
 
 ## Demo Video
 Please check the demo video of the implementation [here](https://github.com/akdev121/RaftImplementation/tree/master/DemoVideo)
