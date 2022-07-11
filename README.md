@@ -49,18 +49,21 @@ Implementing of safe log replication involves implementation of following mechan
 
 Please check this file to see more information on the Safe Log Replication Implementation
 
+## Tools and Technologies
+* **Java**
+* **Java Spring**
+* **Multithreading in Java**
+* **UDP Datagram Packets** - Used UDP packets for sending heartbeats, vote requests and other messages
+* **Docker** - Built 5 container to simulate algorithm
+
 ## How to use this repository
 * Please check Readme inside folder for using this repository
 
 ## Testing and Validation
 * please check this file for testing and valiation
 
-## Tools and Technologies
-* Java
-* Java Spring
-* Multithreading in Java
-* UDP Datagram Packets - Used UDP packets for sending heartbeats, vote requests and other messages
-* Docker - Built 5 container to simulate algorithm
+## Demo Video
+[Please check the demo video of the implementation here](akdev121/RaftImplementation/DemoVideo/)
 
 
 ## References
