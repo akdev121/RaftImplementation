@@ -1,15 +1,15 @@
 # **Raft Consensus Implementation**:rowboat:
 
-Consensus indicates that several servers agree on the same information, which is required for designing fault-tolerant distributed systems. 
+Consensus indicates that several servers agree on the same information, which is required for designing **fault-tolerant distributed systems**. 
 Consensus algorithms enable a group of computers to function as a coherent entity that can withstand the failures of some of its members.
-RAFT protocol helps in achieving consensus.
+**RAFT protocol helps in achieving consensus.
 
 In this project I implemented the two major task involved in RAFT algorithms
-a. Leader Election
-b. Safe Log Replication
+* **Leader Election
+* **Safe Log Replication
 
 ## Leader Election
-As per RAFT algorithm each node in a cluster can exist in three states, namely Leader, Candidate and Follower.
+As per RAFT algorithm each node in a cluster can exist in three states, namely **Leader, Candidate and Follower**.
 The below flow diagram explains the transition of nodes into different states.
 
 <p align="center">
@@ -42,10 +42,10 @@ elected as leader. The below flow diagram explains the log replication process.
 </p>
 
 Implementing of safe log replication involves implementation of following mechanism
-* Leader Completeness - Candidates with incomplete logs must not be elected as leader.
-* Log replications to all the followers by the leader.
-* Log ordering - Ensure the integrity of log.
-* Log inconsistencies - Managing Follower's log with conflicting log entries or incomplete log entries.
+* **Leader Completeness** - Candidates with incomplete logs must not be elected as leader.
+* **Log replications** to all the followers by the leader.
+* **Log ordering** - Ensure the integrity of log.
+* **Log inconsistencies** - Managing Follower's log with conflicting log entries or incomplete log entries.
 
 Please check this file to see more information on the Safe Log Replication Implementation
 
