@@ -84,7 +84,7 @@ services:
       
   controller:
      container_name: Controller
-     build: Controller/.
+     build: TestUnit_Controller/.
      stdin_open: true
      networks:
       - application_network
